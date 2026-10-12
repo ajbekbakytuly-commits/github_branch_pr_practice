@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Жеке веб-портфолио">
+  <title>Менің портфолиом</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">A<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Мәзірді ашу" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#home">Басты бет</a>
+      <a href="#about">Мен туралы</a>
+      <a href="#gallery">Жобалар</a>
+      <a href="#contact">Байланыс</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">ВЕБ-ДИЗАЙНЕР · ӘЗІРЛЕУШІ</p>
+        <h1>Сәлем! Менің атым <span>Айбек.</span></h1>
+        <p class="hero-text">Мен заманауи, ыңғайлы және әдемі веб-сайттар жасауға қызығамын.</p>
+        <a class="button" href="#gallery">Жобаларымды көру <span>↗</span></a>
+      </div>
+      <div class="hero-card">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="monogram">A<span>.</span></div>
+        <p>Идеядан — іске дейін.</p>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">01 / МЕН ТУРАЛЫ</div>
+      <div>
+        <h2>Қарапайым дизайн.<br><span>Мағыналы нәтиже.</span></h2>
+        <p>Мен веб-жобаларды жоспарлауды, HTML арқылы құрылым жасауды және CSS көмегімен стильдеуді үйреніп жүрмін. Әр жобада қолданушыға ыңғайлы интерфейс жасауға тырысамын.</p>
+        <div class="skills">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="gallery">
+      <div class="section-heading">
+        <div>
+          <div class="section-label">02 / ЖОБАЛАР</div>
+          <h2>Таңдаулы жұмыстар</h2>
+        </div>
+        <p>Үйрену барысында жасалған жобалар.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-one">
+          <div class="project-art art-one"><span>01</span><div class="art-shape"></div></div>
+          <div class="project-info"><div><h3>Веб-портфолио</h3><p>Жеке сайт дизайны</p></div><span class="arrow">↗</span></div>
+        </article>
+        <article class="project-card project-two">
+          <div class="project-art art-two"><span>02</span><div class="art-window"><i></i><i></i><i></i><b></b></div></div>
+          <div class="project-info"><div><h3>Интерфейс дизайны</h3><p>Қолданушы тәжірибесі</p></div><span class="arrow">↗</span></div>
+        </article>
+        <article class="project-card project-three">
+          <div class="project-art art-three"><span>03</span><div class="art-circle"></div></div>
+          <div class="project-info"><div><h3>Креативті бет</h3><p>HTML және CSS</p></div><span class="arrow">↗</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-label">03 / БАЙЛАНЫС</div>
+      <h2>Бірге жоба жасайық.</h2>
+      <p>Сұрақтарыңыз немесе ұсыныстарыңыз болса, маған жазыңыз.</p>
+      <a class="button button-light" href="mailto:example@gmail.com">example@gmail.com <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#home">A<span>.</span></a><p>© <span id="year"></span> Айбек. Барлық құқықтар қорғалған.</p><a href="#home">Жоғарыға ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
